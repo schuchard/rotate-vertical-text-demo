@@ -8,13 +8,9 @@ import { MatSliderModule } from '@angular/material/slider';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserAnimationsModule, FormsModule, MatInputModule, MatSliderModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserAnimationsModule, FormsModule, MatInputModule, MatSliderModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
