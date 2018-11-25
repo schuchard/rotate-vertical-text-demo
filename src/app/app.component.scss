@@ -45,6 +45,7 @@ mat-slider {
   font-size: 2em;
   color: white;
   white-space: nowrap;
+  overflow: hidden;
 /* < Required props & classes below {rotate, rotate-up, rotate-down} > */
   position: relative;
 }
